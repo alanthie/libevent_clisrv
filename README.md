@@ -6,6 +6,10 @@ listening on "127.0.0.1:6000"
       
 Launch server: ./clisrv -s
 Launch client: ./clisrv -c
+
+The client loop sending back the echo sent by the server (about 3,500 bytes everytimes)
+217,875,000 Total bytes read in 2 seconds on the loopback adapter in debug mode!
+
 </pre>
 
 Inital code from lev:
