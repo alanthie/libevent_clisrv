@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="clisrv" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/clisrv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-s" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-static -levent" />
+					<Add directory="/home/allaptop/dev/libevent/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-levent" />
+					<Add directory="/home/allaptop/dev/libevent/build/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/clisrv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-c" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-static -levent" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-levent" />
+					<Add directory="/home/allaptop/dev/libevent/build/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++20" />
+			<Add option="-fexceptions" />
+			<Add option="-levent" />
+			<Add option="-static" />
+			<Add directory="/home/allaptop/dev/libevent/include" />
+			<Add directory="../../libevent/include" />
+			<Add directory="../include" />
+		</Compiler>
+		<Linker>
+			<Add option="-levent" />
+			<Add option="-static" />
+			<Add library="/home/allaptop/dev/libevent/build/lib/libevent.a" />
+		</Linker>
+		<Unit filename="sockcliserv.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1734133630 source:/home/allaptop/dev/lev/example/sockcliserv.cpp
+	<getopt.h>
+	"lev.h"
+
+1734131780 /home/allaptop/dev/lev/include/lev.h
+	<stdio.h>
+	<assert.h>
+	<stdlib.h>
+	<stddef.h>
+	<memory.h>
+	<netinet/tcp.h>
+	<signal.h>
+	<string>
+	<event2/event-config.h>
+	<event2/event.h>
+	<event2/event_struct.h>
+	<event2/util.h>
+	<event2/listener.h>
+	<event2/buffer.h>
+	<event2/bufferevent.h>
+	<event2/http.h>
+
+1734075897 /home/allaptop/dev/libevent/include/event2/event-config.h
+
+1734075785 /home/allaptop/dev/libevent/include/event2/event.h
+	<event2/visibility.h>
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<stdio.h>
+	<event2/util.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/visibility.h
+	<event2/event-config.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/util.h
+	<event2/visibility.h>
+	<event2/event-config.h>
+	<sys/time.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/types.h>
+	<stddef.h>
+	<BaseTsd.h>
+	<stdarg.h>
+	<netdb.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<errno.h>
+	<sys/socket.h>
+	<time.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/event_struct.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+	<event2/keyvalq_struct.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/keyvalq_struct.h
+
+1734075785 /home/allaptop/dev/libevent/include/event2/listener.h
+	<event2/visibility.h>
+	<event2/event.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/buffer.h
+	<event2/visibility.h>
+	<event2/event-config.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/uio.h>
+	<event2/util.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/bufferevent.h
+	<event2/visibility.h>
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+
+1734075785 /home/allaptop/dev/libevent/include/event2/http.h
+	<event2/util.h>
+	<event2/visibility.h>
+
