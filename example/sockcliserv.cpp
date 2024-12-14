@@ -59,7 +59,7 @@ void testServer(const char* arg)
 {
     EvBaseLoop base;
     EvConnListener listener;
-    IpAddr sin(arg ? arg : "127.0.0.1:60");
+    IpAddr sin(arg ? arg : "127.0.0.1:6000");
 
     printf("Server listening on %s\n", sin.toString().c_str());
 
@@ -134,7 +134,7 @@ void testClient(const char* arg)
     evtimeout.start(2000);
 
     // Connect the client
-    sin.assign(arg ? arg : "127.0.0.1:60");
+    sin.assign(arg ? arg : "127.0.0.1:6000");
     printf("Client connecting on %s\n", sin.toString().c_str());
 
     int64_t bytesread = 0;
