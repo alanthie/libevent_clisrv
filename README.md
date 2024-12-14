@@ -1,6 +1,7 @@
 Testing the libevent library
 ===
 <pre>
+The codeblock project clisrv.cbp produce the executable: clisrv
 Launch server: ./clisrv -s
 Launch client: ./clisrv -c
 </pre>
