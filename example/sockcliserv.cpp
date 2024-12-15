@@ -143,7 +143,7 @@ void testClient(const char* arg)
         evbuf.enable(EV_READ | EV_WRITE);
     }
 
-    // Build a message
+    // Build a message 3500 bytes
     for (int i = 0; i < 100; i++)
     {
         evbuf.output().printf("%d--libevent and lev are cool\n");
